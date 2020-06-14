@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.js-form {
+  font-family: "Pacifico";
+  margin: 50px 0px;
+  position: relative;
+}
+
+.js-form .input {
+  font-size: 24px;
+  padding: 0.625em 0.625em 0.625em 0.3125em;
+  display: block;
+  width: 18.75em;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+
+label {
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  left: 5px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.input:focus ~ label {
+  top: -25px;
+  left: -5px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.js-greetings {
+  font-size: 48px;
+  font-family: "Pacifico";
+  color: white;
+  letter-spacing: 2px;
+  margin: 50px 0px;
+}

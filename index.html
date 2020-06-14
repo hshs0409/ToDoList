@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="js-clock">
+      <span class="time-number"></span>
+      <span class="time-number"></span>
+      <div class="js-clock__column">
+        <span class="time-period"></span>
+        <span class="time-number"></span>
+      </div>
+    </div>
+    <form class="js-form form">
+      <input class="input" type="text" name="name" />
+      <label for="name">What is your Name?</label>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <div class="js-toDoContainer">
+      <h1>
+        To-Do List
+        <i class="far fa-list-alt"></i>
+      </h1>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+    <div class="js-weather">
+      <i class="fas fa-temperature-high"></i>
+      <span class="js-weather-text"></span>
+    </div>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>

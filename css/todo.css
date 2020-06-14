@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap");
+
+.js-toDoContainer {
+  width: 500px;
+  font-family: "Nanum Pen Script";
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.js-toDoForm input {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.js-toDoForm input:focus {
+  background: white;
+  border: 3px solid black;
+  outline: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  height: 50px;
+  line-height: 40px;
+  color: #666;
+  font-family: "Inconsolata";
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+li span {
+  margin-left: 10px;
+  height: 50px;
+  color: black;
+  display: inline-block;
+  opacity: 1;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+li:hover span {
+  background-color: #e74c3c;
+  opacity: 0.5;
+}
